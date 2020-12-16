@@ -4,7 +4,7 @@ import JobList from "./components/JobList";
 import "./App.css";
 
 const App = () => {
-  const [job, setJobs] = useState("");
+  const [job, setJobs] = useState({});
   const [search, setSearch] = useState("");
 
   const fetchJobs = async () => {
@@ -37,5 +37,3 @@ const App = () => {
 };
 
 export default App;
-// "https://cors-anywhere.herokuapp.com/https://jobs.github.com/positions.json?page=1&search=code"
-// "https://www.breakingbadapi.com/api/characters"

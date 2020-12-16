@@ -1,7 +1,7 @@
 import React from "react";
 import "../App.css";
 
-const JobList = ({ job }) => {
+const JobList = ({ job, i }) => {
   console.log(job);
   const cardArray = job.map((user, i) => {
     return (
